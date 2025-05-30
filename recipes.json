@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "ingredients": [
+            "Spaghetti",
+            "Eier",
+            "Guanciale",
+            "Pecorino Romano",
+            "Schwarzer Pfeffer",
+            "Salz"
+        ],
+        "tags": [
+            "italienisch",
+            "klassisch"
+        ],
+        "instructions": [
+            "Spaghetti in reichlich Salzwasser al dente kochen.",
+            "Guanciale in Würfel schneiden und in einer Pfanne knusprig auslassen.",
+            "Eier mit geriebenem Pecorino und Pfeffer verquirlen.",
+            "Spaghetti abgießen, etwas Kochwasser auffangen.",
+            "Guanciale und Spaghetti vermengen, Pfanne vom Herd nehmen.",
+            "Eimischung unterrühren, falls nötig etwas Kochwasser zugeben.",
+            "Sofort servieren, mit extra Pecorino und Pfeffer bestreuen."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Spaghetti Aglio e Olio",
+        "ingredients": [
+            "Spaghetti",
+            "Olivenöl",
+            "Knoblauch",
+            "Chili",
+            "Petersilie",
+            "Salz"
+        ],
+        "tags": [
+            "italienisch",
+            "vegetarisch",
+            "schnell"
+        ],
+        "instructions": [
+            "Spaghetti in Salzwasser kochen.",
+            "Olivenöl in einer Pfanne erhitzen, Knoblauch und Chili anbraten.",
+            "Spaghetti abgießen und in die Pfanne geben.",
+            "Gut durchmischen, mit Petersilie bestreuen und servieren."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Tomaten-Mozzarella-Salat",
+        "ingredients": [
+            "Tomaten",
+            "Mozzarella",
+            "Basilikum",
+            "Olivenöl",
+            "Balsamico",
+            "Salz",
+            "Pfeffer"
+        ],
+        "tags": [
+            "salat",
+            "vegetarisch",
+            "einfach"
+        ],
+        "instructions": [
+            "Tomaten und Mozzarella in Scheiben schneiden.",
+            "Abwechselnd auf einem Teller anrichten.",
+            "Mit Basilikum belegen.",
+            "Mit Olivenöl, Balsamico, Salz und Pfeffer abschmecken."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Avocado-Toast",
+        "ingredients": [
+            "Avocado",
+            "Vollkornbrot",
+            "Olivenöl",
+            "Chili",
+            "Zitrone",
+            "Salz",
+            "Pfeffer"
+        ],
+        "tags": [
+            "frühstück",
+            "gesund",
+            "einfach"
+        ],
+        "instructions": [
+            "Brot toasten.",
+            "Avocado zerdrücken, mit Zitronensaft, Salz und Pfeffer würzen.",
+            "Avocadocreme auf das Toast streichen.",
+            "Mit Chili-Flocken und Olivenöl verfeinern."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Chicken Curry",
+        "ingredients": [
+            "Hähnchenbrust",
+            "Zwiebeln",
+            "Knoblauch",
+            "Ingwer",
+            "Currypaste",
+            "Kokosmilch",
+            "Reis"
+        ],
+        "tags": [
+            "asiatisch",
+            "mit Fleisch",
+            "herzhaft"
+        ],
+        "instructions": [
+            "Hähnchen würfeln, Zwiebeln, Knoblauch und Ingwer hacken.",
+            "Öl erhitzen, Hähnchen anbraten.",
+            "Zwiebeln, Knoblauch, Ingwer zugeben und anschwitzen.",
+            "Currypaste einrühren, kurz anrösten.",
+            "Mit Kokosmilch ablöschen und köcheln lassen.",
+            "Mit Reis servieren."
+        ]
+    }
+]
