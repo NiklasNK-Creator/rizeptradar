@@ -1,55 +1,17 @@
+# 🍲 Rezept-Finder
 
-# RecipeRadar
+Eine portable, GUI-basierte Rezeptverwaltung mit Zutatenfilter, Tags, Favoriten, Einkaufsliste und PDF-Export.  
+Läuft ohne Installation. Alles in einer Datei – Rezepte sind eingebettet.  
 
-**RecipeRadar** ist ein schlanker Rezept-Generator für Windows, macOS und Linux.  
-Gib einfach deine vorhandenen Zutaten ein und erhalte sofort Rezeptvorschläge, die passen.
+## ✅ Features
 
-## Features
-
-- Zutaten-Eingabe (Komma getrennt)  
-- Optionale Keyword- oder Tag-Suche  
-- Sofortige Ergebnisliste mit Details  
-- Einfache Erweiterung: Rezepte liegen in `data/recipes.json` (JSON-Liste)  
-
-## Installation / Entwicklung
-
-```bash
-# 1. Repo klonen
-git clone https://github.com/DEIN_NAME/RecipeRadar.git
-cd RecipeRadar
-
-# 2. Virtuelle Umgebung (optional)
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# 3. Abhängigkeiten installieren
-pip install -r requirements.txt
-
-# 4. App starten
-python main.py
-```
-
-## Rezepte hinzufügen
-
-Öffne `data/recipes.json` und hänge einen neuen Eintrag an:
-
-```json
-{
-    "id": 5,
-    "name": "Pancakes",
-    "ingredients": ["mehl", "milch", "ei", "backpulver", "salz"],
-    "tags": ["frühstück", "süß"]
-}
-```
-
-## .exe bauen (Windows)
-
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --icon assets/icon.ico main.py
-```
-
-Die fertige EXE liegt danach unter `dist/main.exe`.
+- Zutaten- und Tag-basierte Suche (inkl. „UND“-Suche)
+- Favoriten (werden im selben Ordner gespeichert)
+- Einkaufsliste generieren
+- PDF-Export einzelner Rezepte
+- Sprachumschaltung (Deutsch / Englisch)
+- „KI“-Rezeptvorschlag (Zufälliges Rezept basierend auf Zutaten)
+- 100% portabel – keine Installation, keine Abhängigkeiten beim Nutzer
 
 ## Lizenz
 
